@@ -14,19 +14,22 @@ browser.
 
 ## Phase 2: Add Last Name
 
-1. Add a label and input field for a last name.
+1. The last name field is broken and is not rendering properly.  Please fix it.
 - Hint: should be similar to the first name `<div>`
 
 ## Phase 3: Adding values
 
-In the `<select>` element add following values to the select dropdown:
+In the `<select>` element has a broken dropdown with the following three values:
 1. admin
 2. user
 3. guest
 
-## Phase 4: Date and Bio
+However, upon further inspection the values are not being shown.
+Debug the issue.
 
-1. Change the expiration element to take in a date input and **not** text.
-2. Change the bio element to be able to take in multiple lines of text.
+## Phase 4: Debug the Bio
+
+1. Instead of the bio element having two input fields chang it to be able to
+take in a text box that allows multiple lines of text.
 
 [starter]: https://github.com/appacademy-starters/html-forms-debugging
